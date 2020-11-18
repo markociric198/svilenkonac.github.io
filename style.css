@@ -39,20 +39,22 @@ nav{
 	height: 600px;
 }
 .text{
-	position: absolute;
+	position: relative;
 	top: 50%;
 	text-align: center;
 	width: 100%;
 	font-size: 27px;
 	letter-spacing: 8px;
 	text-transform: uppercase;
-	color: #000;
+	color: white;
+	font-weight: bold;
+	
+	
+
 }
-.text .border{
-	background-color: #5d4954;
-	color: #fff;
-	padding: 20px;
-}	
+
+
+	
 
 
 .text1{
@@ -110,14 +112,11 @@ div.desc{
 }
 
 
-@media only screen and (max-width: 500px) {
-	.responsive{
-		width: 100%;
-	}	
-	.border{
-		width: 100px;
-	}
-}
+
+
+
+
+
 
 .clearfix:after {
 	content: "";
